@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libgraphite2,
-        "lib/libgraphite2.3.2.1.dylib",
+        "lib/libgraphite2.3.3.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

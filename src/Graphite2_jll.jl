@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("Graphite2")
-JLLWrappers.@generate_main_file("Graphite2", UUID("3b182d85-2403-5c21-9c21-1e1f0cc25472"))
+JLLWrappers.@generate_main_file("Graphite2", Base.UUID("3b182d85-2403-5c21-9c21-1e1f0cc25472"))
 end  # module Graphite2_jll
